@@ -4,12 +4,13 @@
 
 In this project, we'll provide practice JavaScript problems to help you better understand the fundamentals.
 
+
 ## Setup
 
-* `Fork` this repository.
-* `Clone` your fork.
-* Open `./practice.js` with your code editor.
-* Open `./index.html` with your browser.
+* `Fork` this repository. **DONE
+* `Clone` your fork.  **DONE
+* Open `./practice.js` with your code editor. **DONE
+* Open `./index.html` with your browser. **DONE
 
 ## Directions
 

@@ -2,14 +2,16 @@
 
 //Create a variable called myName that is a string data type
 
-const myName = 'Brittney';
+const myName = "Brittney"
+
+console.log(myName)
 
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-const myAge = 31;
+const myAge = 31
 
 //////////////////PROBLEM 3////////////////////
 
@@ -21,7 +23,7 @@ const lovesCode = true;
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-const greatestFear = ;
+const greatestFear = 
 
 //////////////////PROBLEM 5////////////////////
 
@@ -46,7 +48,9 @@ return "Hello, " + name + "!";
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-//Code Here
+const newGreeting = (name) => {
+  return `Hello, ${name} !`
+}
 
 //////////////////PROBLEM 8////////////////////
 
@@ -119,7 +123,19 @@ add(25, 75)
 // If the passed in color equals 'black', return 'so trendy'
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
-// Code here
+const faveColorFinder = (color) => {
+
+  if (color === 'red') {
+  return 'red is a great color'
+
+} else if (color === 'green') {
+  return 'green is a solid favorite color' 
+} else if (color === black){
+  return 'so trendy'
+} else {
+  return 'you need to evaluate your favorite color choice'
+}
+}
 
 //////////////////PROBLEM 13////////////////////
 
@@ -158,13 +174,13 @@ let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 
 //Create a variable called age with your age assigned to you
 
-// Code Here
+const age = 31;
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-// Code Here
+const age = 31++
 
 // Good news! We can live forever. Set your age to 999
 
-// Code Here
+const age = 999
