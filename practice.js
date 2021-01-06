@@ -2,16 +2,13 @@
 
 //Create a variable called myName that is a string data type
 
-const myName = "Brittney"
-
-console.log(myName)
-
+const myName = 'brittney';
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-const myAge = 31
+const myAge = 31;
 
 //////////////////PROBLEM 3////////////////////
 
@@ -23,7 +20,7 @@ const lovesCode = true;
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-const greatestFear = 
+const greatestFear = words;
 
 //////////////////PROBLEM 5////////////////////
 
@@ -38,7 +35,7 @@ const devMountainGoal = null;
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-const greeting = (name) => {
+function greeting(name){
 return "Hello, " + name + "!";
 
 };
@@ -48,9 +45,9 @@ return "Hello, " + name + "!";
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-const newGreeting = (name) => {
+const newGreeting = function(name){
   return `Hello, ${name} !`
-}
+};
 
 //////////////////PROBLEM 8////////////////////
 
@@ -70,9 +67,9 @@ const dog = {
 name: "Hana",
 color: "teal",
 age: 5,
-goodBoy = true,
+goodBoy: true,
 
-}
+};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
@@ -96,7 +93,7 @@ const nameCheck = (name) => {
   } else {
     return 'Cool name,' + name + '!' ;
   }
-}
+};
 
 //////////////////PROBLEM 11////////////////////
 
@@ -107,12 +104,12 @@ const nameCheck = (name) => {
 const add = (one, two) => {
   return one + two 
   
-}
+};
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
-add(25, 75)
+add(25, 75);
 
 //////////////////PROBLEM 12////////////////////
 
@@ -135,7 +132,7 @@ const faveColorFinder = (color) => {
 } else {
   return 'you need to evaluate your favorite color choice'
 }
-}
+};
 
 //////////////////PROBLEM 13////////////////////
 
@@ -179,8 +176,8 @@ const age = 31;
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-const age = 31++
+const age = 31++;
 
 // Good news! We can live forever. Set your age to 999
 
-const age = 999
+const age = 999;
