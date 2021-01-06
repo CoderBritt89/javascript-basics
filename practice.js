@@ -41,9 +41,6 @@ return 'Hello, ' + name;
 
 };
 
-greeting('Trogdor');
-console.log(greeting('Trogdor'));
-
 
 //////////////////PROBLEM 7////////////////////
 
@@ -54,15 +51,12 @@ const newGreeting = function(name){
   return 'Hello, ' + name;
 };
 
-newGreeting('brittney');
-console.log(newGreeting('brittney'));
-
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-const groceries = ["apples", "milk", "eggs", "bread"];
+const groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
@@ -75,7 +69,7 @@ const dog = {
 name: "Hana",
 color: "teal",
 age: 5,
-goodBoy: true,
+goodBoy: true
 
 };
 
@@ -103,7 +97,7 @@ const nameCheck = (name) => {
   }
 };
 
-nameCheck("brittney");
+nameCheck();
 
 //////////////////PROBLEM 11////////////////////
 
@@ -130,6 +124,7 @@ add(25, 75);
 // If the passed in color equals 'black', return 'so trendy'
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
+
 const faveColorFinder = (color) => {
 
   if (color === 'red') {
@@ -144,6 +139,9 @@ const faveColorFinder = (color) => {
 }
 };
 
+faveColorFinder();
+console.log(faveColorFinder('green'));
+
 //////////////////PROBLEM 13////////////////////
 
 let duck = "cute";
@@ -153,11 +151,11 @@ function bathroom() {
   function bathtub() {
     let sailorDuck = "nautical";
   }
-}
+};
 
 function pond() {
   let realDuck = "fluffy";
-}
+};
 
 //There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
 //all within different scopes.
@@ -166,31 +164,30 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck"];
+let globalScope = ['duck'];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["rubberDuck"];
+let bathroomScope = ['duck', 'rubberDuck'];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["sailorDuck"];
+let bathtubScope = ['duck', 'rubberDuck', 'sailorDuck'];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["realDuck"];
+let pondScope = ['duck', 'realDuck'];
+
+
 
 //////////////////PROBLEM 14////////////////////
 
 //Create a variable called age with your age assigned to you
 
 
-let age = 'Brittney\s age is ' + 31;
-
-console.log(age);
-
+let age = 31
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-age++;
+age = 32
 
 // Good news! We can live forever. Set your age to 999
 
-age = 999;
+age = 999
