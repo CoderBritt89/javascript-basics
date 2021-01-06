@@ -21,7 +21,7 @@ const lovesCode = true;
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-const greatestFear = words;
+const greatestFear = undefined;
 
 //////////////////PROBLEM 5////////////////////
 
@@ -65,18 +65,17 @@ const groceries = ["apples", "milk", "eggs", "bread"]
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-const dog = {
+let dog = {
 name: "Hana",
 color: "teal",
 age: 5,
 goodBoy: true
-
 };
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-const devMountainClassPet = dog.name;
+let devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -97,7 +96,7 @@ const nameCheck = (name) => {
   }
 };
 
-nameCheck();
+
 
 //////////////////PROBLEM 11////////////////////
 
@@ -105,10 +104,11 @@ nameCheck();
 // that will be numbers.
 // The add function should return the two parameters added together
 
-const add = (one, two) => {
-  return one + two 
-  
+const add = (a, b) => {
+  return a + b 
 };
+
+add(1, 6);
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
@@ -125,22 +125,20 @@ add(25, 75);
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 
-const faveColorFinder = (color) => {
+const faveColorFinder =(color)=> {
 
   if (color === 'red') {
   return 'red is a great color'
 
 } else if (color === 'green') {
   return 'green is a solid favorite color' 
-} else if (color === black){
+} else if (color === 'black'){
   return 'so trendy'
 } else {
   return 'you need to evaluate your favorite color choice'
 }
 };
 
-faveColorFinder();
-console.log(faveColorFinder('green'));
 
 //////////////////PROBLEM 13////////////////////
 
